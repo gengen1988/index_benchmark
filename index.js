@@ -14,7 +14,7 @@ async function test(n) {
   console.log('done');
 }
 
-test(10).then(() => {
+test(200).then(() => {
   console.log(lib.db);
   fs.writeFileSync('result.json', JSON.stringify(lib.db, null, 2))
 })

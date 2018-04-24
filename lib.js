@@ -8,7 +8,7 @@ let levelStore = level('./levelStore')
 let knex = require('knex')({
   client: 'mysql2',
   connection: {
-    host: 'rm-m5ey56z8u9u1ai1a8.mysql.rds.aliyuncs.com',
+    host: 'rm-m5ey56z8u9u1ai1a8ao.mysql.rds.aliyuncs.com',
     user: 'root',
     database: 'test',
     password: 'q$86mNXOG%Pyc6fK'
